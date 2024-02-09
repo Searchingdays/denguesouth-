@@ -23,7 +23,7 @@ df = pd.read_stata(r"C:\Users\pacha\Downloads\ICPSR_36151-V6\ICPSR_36151\DS0011\
 
 residence = (df.loc[:,'TH23'])
 
-residence = residence.dropna()
+residence = residence.dropna()  #out of 23951 available information, over 18000 are in the same state as 2005.
 
 #print(residence)
 
